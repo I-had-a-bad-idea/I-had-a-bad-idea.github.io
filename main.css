@@ -4,6 +4,15 @@
    Dark Mode Base Theme
    ========================= */
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;          /* Makes items horizontal */
+    justify-content: center; /* Centers the whole nav */
+    gap: 20px;              /* Space between items */
+}
+
 :root {
   --bg-main: #0f1115;
   --bg-secondary: #171a21;
