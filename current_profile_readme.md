@@ -1,0 +1,127 @@
+<div align="center">
+  <h1>I-had-a-bad-idea</h1>
+
+---
+
+## Who am I?
+
+I'm a student from Germany just messing with stuff.  
+I mostly learn by doing.  
+I try to be efficient because I am a lazy person.    
+
+Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
+
+---
+
+## Technologies I haved used in repos (auto-generated)
+
+![SQLite](https://img.shields.io/badge/SQLite-cccccc?style=plastic&logo=SQLite&logoColor=auto)
+![Flask](https://img.shields.io/badge/Flask-cccccc?style=plastic&logo=Flask&logoColor=auto)
+![Ollama](https://img.shields.io/badge/Ollama-cccccc?style=plastic&logo=Ollama&logoColor=auto)
+![GDScript](https://img.shields.io/badge/GDScript-cccccc?style=plastic&logo=GDScript&logoColor=auto)
+![Python](https://img.shields.io/badge/Python-3572A5?style=plastic&logo=Python&logoColor=auto)
+![C++](https://img.shields.io/badge/C%2B%2B-cccccc?style=plastic&logo=C%2B%2B&logoColor=auto)
+![Rust](https://img.shields.io/badge/Rust-dea584?style=plastic&logo=Rust&logoColor=auto)
+![Ruby](https://img.shields.io/badge/Ruby-701516?style=plastic&logo=Ruby&logoColor=auto)
+![C](https://img.shields.io/badge/C-555555?style=plastic&logo=C&logoColor=auto)
+![GDShader](https://img.shields.io/badge/GDShader-cccccc?style=plastic&logo=GDShader&logoColor=auto)
+![JavaScript](https://img.shields.io/badge/JavaScript-f1e05a?style=plastic&logo=JavaScript&logoColor=auto)
+![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=plastic&logo=Assembly&logoColor=auto)
+![C#](https://img.shields.io/badge/C%23-cccccc?style=plastic&logo=C%23&logoColor=auto)
+![HTML](https://img.shields.io/badge/HTML-e44b23?style=plastic&logo=HTML&logoColor=auto)
+![CSS](https://img.shields.io/badge/CSS-563d7c?style=plastic&logo=CSS&logoColor=auto)
+![Makefile](https://img.shields.io/badge/Makefile-427819?style=plastic&logo=Makefile&logoColor=auto)
+![Linker Script](https://img.shields.io/badge/Linker%20Script-cccccc?style=plastic&logo=Linker%20Script&logoColor=auto)
+![Batchfile](https://img.shields.io/badge/Batchfile-cccccc?style=plastic&logo=Batchfile&logoColor=auto)
+![Shell](https://img.shields.io/badge/Shell-89e051?style=plastic&logo=Shell&logoColor=auto)
+
+## Stuff I made
+
+![IPL Tests](https://github.com/IPL-Foundation/IPL/actions/workflows/test.yml/badge.svg)
+![ILI Tests](https://github.com/IPL-Foundation/ILI/actions/workflows/test.yml/badge.svg)
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/IPL-Foundation/IPL">
+        <img src="https://github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=IPL-Foundation&repo=IPL&theme=github_dark&hide_border=true" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/IPL-Foundation/ILI">
+        <img src="https://github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=IPL-Foundation&repo=ILI&theme=github_dark&hide_border=true" />
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="https://github.com/I-had-a-bad-idea/Rasterization-Renderer">
+        <img src="https://github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Rasterization-Renderer&theme=github_dark&hide_border=true" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/I-had-a-bad-idea/C-Dictionary">
+        <img src="https://github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=C-Dictionary&theme=github_dark&hide_border=true" />
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="https://github.com/I-had-a-bad-idea/V.A.C.E">
+        <img src="https://github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=V.A.C.E&theme=github_dark&hide_border=true" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/I-had-a-bad-idea/DocGen">
+        <img src="https://github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=DocGen&theme=github_dark&hide_border=true" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+
+---
+
+## Currently working on
+- **TetrOS** (a tiny OS (bootloader, kernel) for runnning Tetris)
+- [**gluck-bot**](https://github.com/Willibald-Gluck-Gymnasium/gluck-bot) (a chatbot for my [school](https://github.com/Willibald-Gluck-Gymnasium))
+
+## Some (possibly) interesting statistics
+
+![Top Languages](assets/top-langs.svg?ts=1778653916789)
+
+![Lines Added](https://img.shields.io/badge/Added-477884_lines-brightgreen)
+![Lines Removed](https://img.shields.io/badge/Removed-56672_lines-red)
+
+Contributions Graph             | Contribution Time
+:-------------------------:|:-------------------------:
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=I-had-a-bad-idea&theme=github_dark&v=2)  |  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=I-had-a-bad-idea&theme=github_dark&v=2)
+
+### Repo stats
+
+| Repo | Total Lines | Top Language: loc |
+|------|------------|--------------|
+| IPL | 2687 | Rust: 1859 |
+| ILI | 489 | Rust: 356 |
+| V.A.C.E | 369444 | Python: 294 |
+| Rasterization-Renderer | 1401 | C++: 789 |
+| Digit-Recognition-Neural-Network | 515 | Python: 368 |
+| TetrOS | 1630 | C: 1150 |
+
+
+### Most active repos this week
+
+- [TetrOS](https://github.com/I-had-a-bad-idea/TetrOS) (17 commits)
+- [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (8 commits)
+
+---
+
+### Fun Fact: I solved the world´s oldest question in one line of python:
+
+```python
+# Which came first? The egg or the chicken?
+print(sorted(['🥚', '🐔'])) # Output: ['🐔', '🥚']
+```
