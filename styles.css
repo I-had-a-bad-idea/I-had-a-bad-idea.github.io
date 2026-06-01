@@ -96,7 +96,7 @@ header h1 {
 
 header p {
   margin: 0 0 24px;
-  color: #333;
+  color: var(--text-primary);
 }
 
 h2 {
