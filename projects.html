@@ -35,43 +35,14 @@
     </header>
 
     <section>
-      <h2>Highlighted projects</h2>
-      <article>
-        <h3>gluck-bot</h3>
-        <p>A chatbot built for my school. It is designed to be able to answer questions about our school and the German school system in general.
-          It includes a user system for continuing chats over longer times. Furthermore teachers can use it to share documents with other teachers or students.
-        </p>
-      </article>
-      <article>
-        <h3><a href="https://github.com/I-had-a-bad-idea/TetrOS">TetrOS</a></h3>
-        <p>Small operating system with bootloader and kernel for playing Tetris.
-          I made this project to learn about the basics of how an OS works under the hood.
-        </p>
-      </article>
-      <article>
-        <h3><a href="https://github.com/I-had-a-bad-idea/Rasterization-Renderer">Rasterization-Renderer</a></h3>
-        <p>A basic 3D rasterization render built with C++ and SDL.</p>
-      </article>
-      <article>
-        <h3><a href="https://github.com/IPL-Foundation/IPL">IPL</a></h3>
-        <p>Interpreter for a simple python-like language.
-          It has the goal of making syntax as simple as possible, so you can focus on learning the programming mindset and not syntax.</p>
-      </article>
-      <article>
-        <h3><a href="https://github.com/IPL-Foundation/ILI">ILI</a></h3>
-        <p>Library installer for IPL, aimed at managing dependencies and installation workflows.</p>
-      </article>
-      <article>
-        <h3><a href="https://github.com/I-had-a-bad-idea/Digit-Recognition-Neural-Network">Digit-Recognition-Neural-Network</a></h3>
-        <p>From-scratch neural network for handwritten digit recognition, built to learn how neural networks (and AI for that matter) really work.</p>
-      </article>
+      <div id="projects-container"></div>
     </section>
 
     <section>
       <h2>Other work</h2>
       <ul>
         <li><strong><a href="https://github.com/I-had-a-bad-idea/C-Dictionary">C-Dictionary</a></strong> - C data structures.</li>
-        <li><stron><a href="https://github.com/I-had-a-bad-idea/DocGen">DocGen</a></strong> - Tool for documentation generation.</li>
+        <li><strong><a href="https://github.com/I-had-a-bad-idea/DocGen">DocGen</a></strong> - Tool for documentation generation.</li>
         <li><strong><a href="https://github.com/I-had-a-bad-idea/V.A.C.E">V.A.C.E</a></strong> - Project to execute commands, with only your voice.
         </li>
       </ul>
@@ -81,6 +52,120 @@
   </div>
 
   <script>
+    const projects = [
+      {
+        name: "gluck-bot",
+        description:
+          "A chatbot built for my school. It is designed to be able to answer questions about our school and the German school system in general. \
+          It includes a user system for continuing chats over longer times. Furthermore teachers can use it to share documents with other teachers or students.",
+        link: "https://github.com/Willibald-Gluck-Gymnasium/gluck-bot",
+        images: [],
+        technologies: ["Python", "Flask", "Ollama", "Sentence.Transformers", "Flutter", "Dart"],
+        focus: ""
+      },
+
+      {
+        name: "TetrOS",
+        description:
+          "Small operating system with bootloader and kernel for playing Tetris. \
+          Fully functional OS with a playable Tetris.",
+        link: "https://github.com/I-had-a-bad-idea/TetrOS",
+        images: [],
+        technologies: ["x86 Assembly", "C"],
+        focus: "Learning about the basics of how an OS works under the hood."
+      },
+
+      {
+        name: "Rasterization-Renderer",
+        description:
+          "A basic 3D rasterization render built with C++ and SDL.",
+        link: "https://github.com/I-had-a-bad-idea/Rasterization-Renderer",
+        images: [],
+        technologies: [],
+        focus: ""
+      },
+
+      {
+        name: "IPL",
+        description:
+          "Interpreter for a simple python-like language. It has the goal of making syntax as simple as possible, so you can focus on learning the programming mindset and not syntax.",
+        link: "https://github.com/IPL-Foundation/IPL",
+        images: [],
+        technologies: [],
+        focus: ""
+      },
+
+      {
+        name: "ILI",
+        description:
+          "Library installer for IPL, aimed at managing dependencies and installation workflows.",
+        link: "https://github.com/IPL-Foundation/ILI",
+        images: [],
+        technologies: [],
+        focus: ""
+      },
+
+      {
+        name: "Digit-Recognition-Neural-Network",
+        description:
+          "From-scratch neural network for handwritten digit recognition, built to learn how neural networks (and AI for that matter) really work.",
+        link: "https://github.com/I-had-a-bad-idea/Digit-Recognition-Neural-Network",
+        images: [],
+        technologies: [],
+        focus: ""
+      },
+    ];
+
+    const container = document.getElementById("projects-container");
+
+    projects.forEach(project => {
+      const article = document.createElement("article");
+      article.className = "project-card";
+
+      article.innerHTML = `
+        <h3>
+          <a href="${project.link}" target="_blank" rel="noopener">
+            ${project.name}
+          </a>
+        </h3>
+
+        <p class="project-description">
+          ${project.description}
+        </p>
+
+        ${
+          project.images.length > 0
+            ? `
+            <div class="project-gallery">
+              ${project.images
+                .map(
+                  image =>
+                    `<img src="${image}" alt="${project.name} screenshot">`
+                )
+                .join("")}
+            </div>
+          `
+            : ""
+        }
+
+        <div class="project-section">
+          <h4>Technologies</h4>
+          <ul>
+            ${project.technologies
+              .map(tech => `<li>${tech}</li>`)
+              .join("")}
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h4>Main Focus</h4>
+          <p>${project.focus}</p>
+        </div>
+      `;
+
+      container.appendChild(article);
+    });
+
     const themeToggle = document.getElementById('themeToggle');
     const themeIcon = document.getElementById('themeIcon');
     const html = document.documentElement;
