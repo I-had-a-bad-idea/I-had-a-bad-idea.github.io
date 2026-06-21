@@ -126,3 +126,18 @@ footer {
   font-size: 0.95rem;
   color: var(--text-secondary);
 }
+
+
+.project-gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-gallery img {
+  flex: 1;
+  min-width: 250px;
+  max-width: calc(50% - 0.5rem);
+  height: auto;
+  border-radius: 8px;
+}
